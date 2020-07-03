@@ -1,0 +1,15 @@
+[run]
+source =
+    save_as_jt
+    tests
+branch = True
+omit =
+    save_as_jt/cli.py
+
+[report]
+exclude_lines =
+    no cov
+    no qa
+    noqa
+    pragma: no cover
+    if __name__ == .__main__.:
