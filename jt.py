@@ -7,7 +7,7 @@ clr.AddReference("System.Runtime.InteropServices")
 import System
 
 def save_as_jt(document, NewName):
-    """Note: Some of the parameters are obvious by their name but we need to work on getting better descriptions for some
+    """
     """
     document.SaveAsJT(
         NewName,
